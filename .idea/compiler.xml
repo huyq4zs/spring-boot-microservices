@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-admin-server" />
+        <module name="cloud-config-server" />
+        <module name="cloud-data-flow-server" />
+        <module name="cloud-registry-server" />
+        <module name="microapp-1" />
+        <module name="microapp-2" />
+        <module name="sidecar-1" />
+        <module name="task-demo" />
+        <module name="zuul-proxy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-admin-server" target="1.8" />
+      <module name="cloud-config-server" target="1.8" />
+      <module name="cloud-data-flow-server" target="1.8" />
+      <module name="cloud-registry-server" target="1.8" />
+      <module name="microapp-1" target="1.8" />
+      <module name="microapp-2" target="1.8" />
+      <module name="sidecar-1" target="1.8" />
+      <module name="spring-boot-microservices" target="1.8" />
+      <module name="task-demo" target="1.8" />
+      <module name="zuul-proxy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
