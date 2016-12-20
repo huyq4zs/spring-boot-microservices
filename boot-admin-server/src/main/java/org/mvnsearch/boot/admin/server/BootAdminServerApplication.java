@@ -9,7 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableAdminServer
 @EnableDiscoveryClient
 public class BootAdminServerApplication {
-
+    //提交测试
     public static void main(String[] args) {
         SpringApplication.run(BootAdminServerApplication.class, args);
     }
